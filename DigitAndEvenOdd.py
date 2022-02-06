@@ -1,3 +1,4 @@
+# Brand
 x = (input("Enter: "))
 
 if x.isdigit():
@@ -8,3 +9,4 @@ if x.isdigit():
         print("It is an Odd Number")
 else:
     print("It is Not A number")
+
