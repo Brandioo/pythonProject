@@ -1,4 +1,7 @@
-n = 0
-while n < 7:
-    print("*" * n)
-    n += 1
+n = int(input("Jep n = "))
+
+i = 0
+
+while i < n:
+    print("*" * i)
+    i += 1
