@@ -7,10 +7,16 @@
 #             my_list[j], my_list[j+1]=my_list[j+1],my_list[j]
 # print(my_list)
 
-print(range(1,3,1))
+# print(range(1,3,1))
+#
+# # for i in range(0,6,2):
+# #     print(i)
+#
+# for num in range(-1, -4, -1):
+#         print(num)
 
-# for i in range(0,6,2):
-#     print(i)
+# numbers = [i for i in range(2, 100, 2)]
+# print(len(numbers))
 
-for num in range(-1, -4, -1):
-        print(num)
+keys_and_values = [(1, 'a'), (2, 'b'), (3, 'c')]
+dictonary = {number: letter for (number, letter) in keys_and_values}
