@@ -17,8 +17,11 @@ def add2(a, b, c, d):
 def multiply(a, b):
     return a * b
 
+# Add four numbers
+def dif(a, b):
+    return a - b
 
-print(add(5, 3))
-print(add1(5, 3, 4))
-print(add2(5, 3, 4, 5))
-print(multiply(2, 2))
+# print(add(5, 3))
+# print(add1(5, 3, 4))
+# print(add2(5, 3, 4, 5))
+# print(multiply(2, 2))
