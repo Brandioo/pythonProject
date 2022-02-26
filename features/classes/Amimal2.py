@@ -1,16 +1,16 @@
 class Animal:
     def __init__(self, name="Rex", age=2):
-        self.__name = name
-        self.__age = age
+        self.name = name
+        self.age = age
 
     def set_age(self, age):
         if age > 0:
-            self.__age = age
+            self.age = age
         else:
             print("Age must be grater than 0.")
 
     def get_age(self):
-        return self.__age
+        return self.age
 
 
 my_dog = Animal()
