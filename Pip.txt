@@ -1,0 +1,12 @@
+pip help
+pip install <package_name>
+pip uninstall <package_name>
+
+pip freeze (currently installed packages)
+pip freeze > requirements.txt (To create a requirements.txt file that stores information about external libraries that were installed, use the command)
+
+pip list -o (installed packages)
+pip install -U <package_name> (-update)
+pip install <package_name>==version || pip install <package_name>>=version 
+|| pip install <package_name>>=version_min, <version_max (Exact Version) || pip install <package_name>!=version
+pip install -r requirements.txt -restore from requirements.txt
