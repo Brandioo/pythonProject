@@ -9,4 +9,6 @@ pip list -o (installed packages)
 pip install -U <package_name> (-update)
 pip install <package_name>==version || pip install <package_name>>=version 
 || pip install <package_name>>=version_min, <version_max (Exact Version) || pip install <package_name>!=version
+
 pip install -r requirements.txt -restore from requirements.txt
+pip uninstall -r requirements.txt -resto  re from requirements.txt (Uninstall)
